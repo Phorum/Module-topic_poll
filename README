@@ -1,9 +1,9 @@
-Module  : Topic Poll
-Version : 1.0.20
+Module  : @TITLE@
+Version : @VERSION@
 Author  : Maurice Makaay <maurice@phorum.org>
 
 *** IMPORTANT ***
-This module requires Phorum 5.1.23 or higher.
+This module requires Phorum @REQUIRED_VERSION@ or higher.
 It will not work for versions of Phorum prior to this versions.
 
 This module makes it possible to add polls to forum topics. For each
@@ -22,13 +22,13 @@ Install:
 
 - Unpack the archive;
 
-- Move the directory "topic_poll" to the directory "mods"
+- Move the directory "@MODULE_ID@" to the directory "mods"
   within your Phorum installation;
 
 - Login as administrator in Phorum's administrative interface and
   go to the "Modules" section;
 
-- Enable the module "Topic Poll";
+- Enable the module "@TITLE@";
 
 - After this, go to the module's settings screen to configure
   the options for this module.
